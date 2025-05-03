@@ -1,3 +1,3 @@
-<h1>Parkinson's Dysphonia Analysis</h1>
-
-<p>The parkinsons.ipynb file consists of code pertaining to summary statistics of the dataset and graphical visualizations. (Commiting final changes soon.)</p>
+    <h1>Parkinson's Dysphonia Analysis by EDA and Machine Learning.</h1>
+    <h2>About</h2>
+    <p>This project analyzes vocal measurement data from the Parkinsons's dataset in UCI Machine Learning.</p>
