@@ -1,6 +1,6 @@
 <h1>Dysphonia analysis for predicting Parkinson's disease.</h1>
 <h2>About</h2>
-<p>This project analyzes vocal measurement data from the Parkinsons's dataset in the UCI Machine Learning Repository. <a>https://archive.ics.uci.edu/dataset/174/parkinsons</a>
+<p>This project analyzes vocal measurement data from the Parkinsons's dataset in the UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/174/parkinsons
     Using the datset of various vocal features, we perform:
     <ul>
         <li>Exploratory Data Analysis</li>
