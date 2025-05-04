@@ -31,3 +31,8 @@
         <li>SciPy</li>
         <li>Scikit-learn</li>
     </ul>
+<h2>References</h2>
+<ol>
+   <li>Little, M. A., McSharry, P. E., Roberts, S. J., Costello, D. A., & Moroz, I. M. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. BioMedical Engineering OnLine, 6(1), 23. https://doi.org/10.1186/1475-925x-6-23</li>
+   <li>Little, M., McSharry, P., Hunter, E., Spielman, J., & Ramig, L. (2008). Suitability of dysphonia measurements for telemonitoring of Parkinson’s disease. IEEE Transactions on Biomedical Engineering, 56(4), 1015–1022. https://doi.org/10.1109/tbme.2008.2005954</li>
+</ol>
