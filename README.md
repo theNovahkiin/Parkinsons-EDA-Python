@@ -15,7 +15,7 @@
 <h3>Classification</h3>
   <p>
     <ul>
-        <li>RobustScaler was used instead of StandardScaler due to some features containing high number of outliers. Consequently, using RobustScaler made such that spread1 and PPE were the two most important features for both classification models.</li>
+        <li>RobustScaler was used due to some features containing high number of outliers. This made it such that spread1 and PPE were the two most important features for both classification models.</li>
         <li></li>
         <li></li>
         <li></li>
