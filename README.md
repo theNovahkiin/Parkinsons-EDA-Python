@@ -46,9 +46,11 @@ Acronyms
   <p>
     <ul>
         <li>RobustScaler was used due to some features containing high number of outliers. This made it such that spread1 and PPE were the two most important features for both classification models. The scaler instance for StandardScaler can be uncommented to see the changes in the most used feature.</li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>PPE was the most important feature for discriminating Parkinson's status in the Random Forest model. The model correctly predicted 36 of the 39 test data samples.</li>
+        <li>spread1 had the highest probability for discerning Parkinson's status in the Logistic Regression model. The model also correctly predicted 36 of the 39 test data samples.</li>
+        <li>Both models had the same accuracy of 92.3% but made different predictions on the test data. The models also gave the highest scores to the features PPE and spread1 suggesting that these features had the most predictive power in separating Parkinson's status.</li>
+        <li>As suggested in reference 2, the non-linear classfication model (here Random Forest) correctly made use of PPE as the most important feature for detecting dysphonia while also being robust to noise and outliers.</li>
+        <li>Dimensionality reduction by PCA reduced the overall accuracy and performance of the models and thus was omitted from the final analysis.</li>
       </ul>
   </p>
   <h2>Libraries</h2>
