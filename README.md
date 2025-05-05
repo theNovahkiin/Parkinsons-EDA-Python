@@ -23,6 +23,21 @@ Matrix column entries (attributes):
    <li>DFA - Signal fractal scaling exponent (measures long-term correlation in speech signals)</li>
    <li>spread1, spread2, PPE - Three nonlinear measures of fundamental frequency variation (spread1 & spread2 reflect pitch instability, PPE measures entropy or randomness of the pitch period)</li>
 </ul>
+Acronyms
+<ul>
+    <li>MDVP - Multidimensional voice program</li>
+    <li>RAP - Relative average perturbation</li>
+    <li>PPQ - Period perturbation quotient</li>
+    <li>DDP - Average absolute difference of differences between consecutive periods</li>
+    <li>APQ3, APQ5 - Amplitude perturbation quotient 3 & 5</li>
+    <li>DDA - Difference of differences of amplitude</li>
+    <li>NHR - noise-to-harmonics ratio</li>
+    <li>HNR - harmonics-to-noise ratio</li>
+    <li>RPDE - Recurrence period density entropy</li>
+    <li>D2 - Correlation dimension</li>
+    <li>DFA - Detrended fluctuation analysis</li>
+    <li>PPE - Pitch period entropy</li>
+</ul>
 </p>
 <h2>Key Findings</h2>
 <h3>EDA</h3>
@@ -30,7 +45,7 @@ Matrix column entries (attributes):
 <h3>Classification</h3>
   <p>
     <ul>
-        <li>RobustScaler was used due to some features containing high number of outliers. This made it such that spread1 and PPE were the two most important features for both classification models.</li>
+        <li>RobustScaler was used due to some features containing high number of outliers. This made it such that spread1 and PPE were the two most important features for both classification models. The scaler instance for StandardScaler can be uncommented to see the changes in the most used feature.</li>
         <li></li>
         <li></li>
         <li></li>
