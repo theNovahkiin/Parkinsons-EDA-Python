@@ -12,16 +12,16 @@
 Matrix column entries (attributes):
 <ul>
    <li>name - ASCII subject name and recording number</li>
-   <li>MDVP:Fo(Hz) - Average vocal fundamental frequency</li>
-   <li>MDVP:Fhi(Hz) - Maximum vocal fundamental frequency</li>
-   <li>MDVP:Flo(Hz) - Minimum vocal fundamental frequency</li>
-   <li>MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, Jitter:DDP - Several measures of variation in fundamental frequency</li>
-   <li>MDVP:Shimmer, MDVP:Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, MDVP:APQ, Shimmer:DDA - Several measures of variation in amplitude</li>
-   <li>NHR, HNR - Two measures of ratio of noise to tonal components in the voice</li>
+   <li>MDVP:Fo(Hz) - Average vocal fundamental frequency (base pitch)</li>
+   <li>MDVP:Fhi(Hz) - Maximum vocal fundamental frequency (highest detected pitch)</li>
+   <li>MDVP:Flo(Hz) - Minimum vocal fundamental frequency (lowest detected pitch)</li>
+   <li>MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, Jitter:DDP - Several measures of variation in fundamental frequency or frequency variability (higher jitter values associated with irregularities in vocal vibrations)</li>
+   <li>MDVP:Shimmer, MDVP:Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, MDVP:APQ, Shimmer:DDA - Several measures of variation in amplitude or amplitude variablity (increased shimmer indicates weakness or unsteadiness in vocal strength)</li>
+   <li>NHR, HNR - Two measures of ratio of noise to tonal components in the voice or vocal harmonics quality</li>
    <li>status - Health status of the subject; (1) - Parkinson's, (0) - healthy</li>
-   <li>RPDE, D2 - Two nonlinear dynamical complexity measures</li>
-   <li>DFA - Signal fractal scaling exponent</li>
-   <li>spread1, spread2, PPE - Three nonlinear measures of fundamental frequency variation</li>
+   <li>RPDE, D2 - Two nonlinear dynamical complexity measures (RPDE reflects unpredictability of vocal vibration period, D2 reflects complexity of vocal signals)</li>
+   <li>DFA - Signal fractal scaling exponent (measures long-term correlation in speech signals)</li>
+   <li>spread1, spread2, PPE - Three nonlinear measures of fundamental frequency variation (spread1 & spread2 reflect pitch instability, PPE measures entropy or randomness of the pitch period)</li>
 </ul>
 </p>
 <h2>Key Findings</h2>
