@@ -7,7 +7,7 @@
         <li>Feature Correlation Analysis</li>
         <li>Classification using Logistic Regression and Random Forest</li>
     </ul>
-<p>The dataset comprises of a range of biomedical voice measurements from 31 people, 23 with Parkinson's disease (PD) and about six measurements for each patient. The main aim of the data is to discriminate healthy people from those with PD, according to "status" column (0 for healthy and 1 for PD). There are a total of 197 instances for 22 features.</p>
+<p>The dataset comprises of a range of biomedical voice measurements from 31 people, 23 with Parkinson's disease (PD) and about six measurements for each patient. The main aim of the data is to discriminate healthy people from those with PD, according to "status" column (0 for healthy and 1 for PD). There are a total of 197 instances for 22 features. Exploratory data analysis is in parkinsons.ipynb, classification by supervised learning is in classification.ipynb. The code was written in the VS Code Jupyter Notebook environment.</p>
 <p>
 Matrix column entries (attributes):
 <ul>
